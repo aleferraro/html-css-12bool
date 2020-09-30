@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug {
+  text-align: center;
+  line-height: 150px;
+}
+
+.debug .container {
+  background-color: #FFC0CB;
+}
+
+.debug [class*="col-"] {
+  border: 1px solid black;
+  min-height: 150px;
+}
+
+.debug .col-6 > .container {
+  padding: 5px;
+}
+
+.debug .col-6 > .container > [class*="col-"] {
+  background-color: #F07F80;
+  border: 1px solid white;
+}
