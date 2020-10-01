@@ -18,11 +18,19 @@
   min-height: 150px;
 }
 
-.debug .col-6 > .container {
+.debug .col-lg-6 > .container {
   padding: 5px;
 }
 
-.debug .col-6 > .container > [class*="col-"] {
+.debug .col-lg-6 > .container > [class*="col-"] {
   background-color: #F07F80;
   border: 1px solid white;
+  height: 140px;
+}
+
+.debug .col-lg-6 > .container > [class*="col-"] .v-cent {
+  line-height: normal;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
 }
